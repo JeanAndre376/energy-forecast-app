@@ -35,7 +35,7 @@ n_days = st.sidebar.slider("Days to show", 30, 365, 90)
 fig = go.Figure()
 fig.add_trace(go.Scatter(
     x=test.index[:n_days], y=test['Actual'][:n_days],
-    name='Actual', line=dict(color='white', width=2.5)))
+    name='Actual', line=dict(color='#1A1A1A', width=2.5)))
 
 if show_sarima:
     fig.add_trace(go.Scatter(
