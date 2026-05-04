@@ -1,7 +1,6 @@
 streamlit
 plotly
 prophet
-tensorflow
 scikit-learn
 pandas
 numpy
